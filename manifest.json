@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Page Translator",
+    "version": "1.0",
+    "description": "Simple Page Translator Extension created for CS50x with love & coffee.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "1": "icons/icon1.jpg"
+      }
+    },
+    "icons": {
+        "1": "icons/icon1.jpg"
+    }
+  }
